@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: '[Your Name] - Frontend Developer',
+	title: '[Samuel Chutter] - Frontend Developer',
 	description:
 		'Welcome to my portfolio! I am a passionate frontend developer specializing in creating beautiful, responsive, and user-centric web applications. With expertise in modern JavaScript frameworks and UI/UX principles, I transform designs into seamless interactive experiences.',
 	keywords: [
@@ -34,21 +34,21 @@ export const metadata: Metadata = {
 		'Performance Optimization',
 		'Web Accessibility',
 		'Component Design',
-		'[Your Name]',
+		'[Samuel Chutter]',
 	],
-	authors: [{ name: '[Your Name]' }],
-	creator: '[Your Name]',
+	authors: [{ name: '[Samuel Chutter]' }],
+	creator: '[Samuel Chutter]',
 	openGraph: {
-		title: '[Your Name] - Frontend Developer Portfolio',
+		title: '[Samuel Chutter] - Frontend Developer Portfolio',
 		description: 'Passionate frontend developer crafting beautiful and interactive web experiences. Explore my projects and frontend development expertise.',
 		url: 'https://your-domain.com',
-		siteName: '[Your Name] - Portfolio',
+		siteName: '[Samuel Chutter] - Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: '[Your Name] - Frontend Developer Portfolio',
+				alt: '[Samuel Chutter] - Frontend Developer Portfolio',
 			},
 		],
 		locale: 'en_US',
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: '[Your Name] - Frontend Developer',
+		title: '[Samuel Chutter] - Frontend Developer',
 		description: 'Passionate frontend developer crafting beautiful and interactive web experiences. Explore my projects and frontend development expertise.',
 		creator: '@yourusername',
 		images: ['/og-image.jpg'],
