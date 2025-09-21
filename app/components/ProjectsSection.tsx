@@ -18,6 +18,14 @@ const projects = [
         tags: ['SwiftUI'],
         liveUrl: 'https://apps.apple.com/us/app/do-hue-recall/id6745530746',
     },
+	{
+    title: "PedalPath",
+    description:
+      "If you are a guitarist who has ever designed or planned a pedalboard, this website will be your best friend. Choose from a large bank of pedal tiles to get real-time tips about your signal chain. PedalPath automatically calculates the total price, necessary cable length, and ideal board size based on PedalTrain models. More pedal tiles coming soon!",
+    image: "/guitar.jpg",
+    tags: ["HTML", "CSS", "JavaScript"],
+    liveUrl: "https://www.pedalpath.samchutter.com",
+  },
     {
         title: 'Student/Faculty Collaboration Platform For TXST',
         description: 'Developed a React-based web application to facilitate collaboration between university faculty and students by connecting faculty-led research opportunities with students seeking to participate. Enabled faculty to post detailed research projects and allowed students to easily discover and apply for opportunities, fostering academic and professional growth.',
@@ -38,14 +46,6 @@ const projects = [
         image: '/color.jpg',
         tags: ['React Native', 'TypeScript', 'Node.js'],
     },
-    {
-    title: "PedalPath",
-    description:
-      "If you are a guitarist who has ever designed or planned a pedalboard, this website will be your best friend. Choose from a large bank of pedal tiles to get real-time tips about your signal chain. PedalPath automatically calculates the total price, necessary cable length, and ideal board size based on PedalTrain models. More pedal tiles coming soon!",
-    image: "/guitar.jpg",
-    tags: ["HTML", "CSS", "JavaScript"],
-    liveUrl: "https://www.pedalpath.samchutter.com",
-  },
 ];
 
 export default function ProjectsSection() {
