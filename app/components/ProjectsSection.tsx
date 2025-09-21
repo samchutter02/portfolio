@@ -25,11 +25,27 @@ const projects = [
         tags: ['React'],
     },
     {
+    title: "CADS Website Redesign For TXST",
+    description:
+      "Redesigned the outdated CADS website for Texas State University, improving navigation, SEO, and the overall user experience. I used the GATO CMS to edit raw HTML, CSS, and JavaScript files. I worked closely with Dr. Apan to make our vision come to life.",
+    image: "/cads.jpg",
+    tags: ["HTML", "CSS", "JavaScript", "GATO"],
+	liveUrl: "https://cads.txst.edu/",
+  },
+    {
         title: 'Neuro Nest',
         description: 'Neuro Nest is a neural network based application that performs object detection to detect and flag defect(s) for those with Alzheimer\'s. I worked closely with Texas State University faculty Dr. Nadim Adi and Dr. Greg Lakomski to create the frontend for Neuro Nest.',
         image: '/color.jpg',
         tags: ['React Native', 'TypeScript', 'Node.js'],
     },
+    {
+    title: "PedalPath",
+    description:
+      "If you are a guitarist who has ever designed or planned a pedalboard, this website will be your best friend. Choose from a large bank of pedal tiles to get real-time tips about your signal chain. PedalPath automatically calculates the total price, necessary cable length, and ideal board size based on PedalTrain models. More pedal tiles coming soon!",
+    image: "/guitar.jpg",
+    tags: ["HTML", "CSS", "JavaScript"],
+    liveUrl: "https://www.pedalpath.samchutter.com",
+  },
 ];
 
 export default function ProjectsSection() {
