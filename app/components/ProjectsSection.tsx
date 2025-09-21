@@ -4,19 +4,19 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 const projects = [
+	{
+        title: 'Do Hue Recall?!',
+        description: 'A fun tool I designed to speed up CSS development and train your color code memorization skills. Choose either color to code or code to color mode and challenge yourself to recall hex codes or visualize colors from code. Or, simply mess with RGB and HEX sliders to see how colors interact with each other while also seeing the codes change!',
+        image: '/code.jpg',
+        tags: ['SwiftUI'],
+        liveUrl: 'https://apps.apple.com/us/app/do-hue-recall/id6745530746',
+    },
     {
         title: 'AuraLog',
         description: 'Aura Log is an iOS app built on SwiftUI and inspired by my personal journey with migraine with aura. Specifically designed to track and document scintillating scotoma—a highly niche and under-researched symptom—this app empowers users to capture granular, real-time data about their visual aura experiences. Prioritizing privacy and ease of use, the app requires no account creation and stores all data locally on your device. AuraLog now supports over 500 users!',
         image: '/migraine.jpg',
         tags: ['SwiftUI', 'localStorage'],
         liveUrl: 'https://apps.apple.com/us/app/aura-log/id6744613084'
-    },
-    {
-        title: 'Do Hue Recall?!',
-        description: 'A fun tool I designed to speed up CSS development and train your color code memorization skills. Choose either color to code or code to color mode and challenge yourself to recall hex codes or visualize colors from code. Or, simply mess with RGB and HEX sliders to see how colors interact with each other while also seeing the codes change!',
-        image: '/code.jpg',
-        tags: ['SwiftUI'],
-        liveUrl: 'https://apps.apple.com/us/app/do-hue-recall/id6745530746',
     },
 	{
     title: "PedalPath",
