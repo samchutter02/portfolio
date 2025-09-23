@@ -13,7 +13,7 @@ export async function POST(request: Request) {
 		}
 
 		const data = await resend.emails.send({
-			from: 'Your Portfolio Contact Form <onboarding@resend.dev>',
+			from: 'Your Portfolio Contact Form <samcwebdev@gmail.com>',
 			to: process.env.CONTACT_EMAIL as string, 
 			subject: `New Contact Form Submission from ${name}`,
 			text: `
