@@ -52,7 +52,7 @@ const projects = [
     tags: ["React"],
   },
   {
-    title: "Neuro Nest",
+    title: "Neuro Nest For TXST",
     description:
       "Neuro Nest is a neural network based application that performs object detection to detect and flag defect(s) for those with Alzheimer's. I worked closely with Texas State University faculty Dr. Nadim Adi and Dr. Greg Lakomski to create the frontend for Neuro Nest, built on TypeScript and Expo.",
     image: "/color.jpg",
