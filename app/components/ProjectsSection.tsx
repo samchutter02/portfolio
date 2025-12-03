@@ -41,7 +41,7 @@ const projects = [
     description:
       "Redesigned the outdated CADS website for Texas State University, improving navigation, SEO, and the overall user experience. I used the GATO CMS to edit raw HTML, CSS, and JavaScript files. I worked closely with Dr. Apan to make our vision come to life.",
     image: "/cads.jpg",
-    tags: ["HTML", "CSS", "JavaScript", "GATO"],
+    tags: ["SPONSORED BY TXST", "HTML", "CSS", "JavaScript", "GATO"],
 	liveUrl: "https://cads.txst.edu/",
   },
   {
@@ -49,14 +49,14 @@ const projects = [
     description:
       "Developed a React-based web application to facilitate collaboration between university faculty and students by connecting faculty-led research opportunities with students seeking to participate. Enabled faculty to post detailed research projects and allowed students to easily discover and apply for opportunities, fostering academic and professional growth.",
     image: "/laptop.jpg",
-    tags: ["React"],
+    tags: ["SPONSORED BY TXST", "React"],
   },
   {
     title: "Neuro Nest For TXST",
     description:
       "Neuro Nest is a neural network based application that performs object detection to detect and flag defect(s) for those with Alzheimer's. I worked closely with Texas State University faculty Dr. Nadim Adi and Dr. Greg Lakomski to create the frontend for Neuro Nest, built on TypeScript and Expo.",
     image: "/color.jpg",
-    tags: ["React Native", "TypeScript", "Node.js", "Expo"],
+    tags: ["SPONSORED BY TXST", "React Native", "TypeScript", "Node.js", "Expo"],
   },
 ];
 
